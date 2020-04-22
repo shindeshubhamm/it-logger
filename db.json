@@ -1,42 +1,54 @@
 {
   "logs": [
     {
-      "message": "workstation 028 fixed",
+      "id": 1,
+      "message": "Workstation 028 fixed",
+      "tech": "Shubham Shinde",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2020-04-22T06:50:49.946Z",
-      "id": 1
+      "date": "2020-04-22T16:44:50.729Z"
     },
     {
-      "message": "network card changed at workstation 058",
-      "tech": "Sara Wilson",
+      "id": 2,
+      "message": "Network card at workstation fixed",
+      "tech": "Mark Jhunjhunwala",
       "attention": false,
-      "date": "2020-04-22T07:55:59.945Z",
-      "id": 2
+      "date": "2020-04-22T16:27:05.568Z"
     },
     {
+      "id": 3,
       "message": "workstation 014 down",
+      "tech": "Shubham Shinde",
       "attention": true,
+      "date": "2020-04-22T16:32:05.580Z"
+    },
+    {
+      "id": 4,
+      "message": "add log to ws 102",
       "tech": "Sam Smith",
-      "date": "2020-04-22T06:51:51.848Z",
-      "id": 3
+      "attention": true,
+      "date": "2020-04-22T16:43:49.323Z"
     }
   ],
   "techs": [
     {
-      "id": 1,
       "firstName": "Sam",
-      "lastName": "Smith"
+      "lastName": "Smith",
+      "id": 1
     },
     {
-      "id": 2,
-      "firstName": "John",
-      "lastName": "Doe"
+      "firstName": "Shubham",
+      "lastName": "Shinde",
+      "id": 2
     },
     {
-      "id": 3,
+      "firstName": "Mark",
+      "lastName": "Jhunjhunwala",
+      "id": 3
+    },
+    {
       "firstName": "Sara",
-      "lastName": "Wilson"
+      "lastName": "Wilson",
+      "id": 4
     }
   ]
 }

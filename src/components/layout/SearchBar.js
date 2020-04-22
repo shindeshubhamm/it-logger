@@ -12,7 +12,6 @@ const SearchBar = ({ searchLogs }) => {
   }, [search])
 
   const onSearch = (e) => {
-    console.log(e.target.value)
     setSearch(e.target.value)
   }
 
