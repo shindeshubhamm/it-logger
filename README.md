@@ -19,5 +19,4 @@ Run server:
 ```bash
 npm run dev # JSON-Server (:1337) and React (:3000)
 npm run json-server # JSON-Server only (:1337)
-npm start # React client only (:3000)
 ```
