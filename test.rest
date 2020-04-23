@@ -1,0 +1,22 @@
+###
+// Get Logs
+GET http://localhost:1337/logs
+
+###
+// Add Log
+POST http://localhost:1337/logs
+Content-Type: application/json
+
+{
+  "message":"workstation 056 down",
+  "attention": true,
+  "tech":"Shubham Shinde"
+}
+
+###
+// Delete Log
+DELETE http://localhost:1337/logs/5
+
+###
+// Get Techs
+GET http://localhost:1337/techs
