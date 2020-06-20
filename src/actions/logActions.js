@@ -138,4 +138,4 @@ export const setLoading = () => {
   return {
     type: SET_LOADING
   }
-} 
+}
